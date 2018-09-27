@@ -1,4 +1,4 @@
 <div>
 	<h1> Upcoming Events List</h1>
-	<event-thumbnail [event] = "event1"></event-thumbnail>
+	<event-thumbnail (eventClick)="handleEventClicked($event)"  [event] = "event1"></event-thumbnail>
 </div>
